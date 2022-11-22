@@ -68,3 +68,27 @@ div{
     font-size: 20px;
     padding: 30px;
 }
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+    opacity: 0.5;
+}
+div.hover{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+div.hover:hover{
+    width: 300px;
+    background-color: red;
+}
+.button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
